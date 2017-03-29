@@ -148,6 +148,12 @@ h1, h2, h3, h4, h5, h6, p, span{
 	
 }
 @media (max-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+	#main-inner {
+		top: 40vh;
+	}
+	h3 {
+		font-size: 17px !important;
+	}
 	
 }
 @media (max-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
